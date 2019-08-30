@@ -1,0 +1,102 @@
+<PISI>
+    <Source>
+        <Name>gtk-sharp3</Name>
+        <Packager>
+            <Name>Arjen Runsink</Name>
+            <Email>arjen.runsink@gmail.com</Email>
+        </Packager>
+        <License>LGPL-2.1-or-later</License>
+        <PartOf>programming.library</PartOf>
+        <Summary xml:lang="en">Gtk# 2.99.3 is a beta release of C# bindings for GTK 3.x.</Summary>
+        <Description xml:lang="en">Gtk# is a .NET language binding for the GTK+ toolkit and assorted GNOME
+libraries. Gtk# is free software, licensed under the GNU LGPL.
+</Description>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://getsol.us/sources/README.Solus</Archive>
+    </Source>
+    <Package>
+        <Name>gtk-sharp3</Name>
+        <Summary xml:lang="en">Gtk# 2.99.3 is a beta release of C# bindings for GTK 3.x.</Summary>
+        <Description xml:lang="en">Gtk# is a .NET language binding for the GTK+ toolkit and assorted GNOME
+libraries. Gtk# is free software, licensed under the GNU LGPL.
+</Description>
+        <PartOf>programming.library</PartOf>
+        <Files>
+            <Path fileType="executable">/usr/bin/gapi3-codegen</Path>
+            <Path fileType="executable">/usr/bin/gapi3-fixup</Path>
+            <Path fileType="executable">/usr/bin/gapi3-parser</Path>
+            <Path fileType="library">/usr/lib/gapi-3.0/gapi-fixup.exe</Path>
+            <Path fileType="library">/usr/lib/gapi-3.0/gapi-parser.exe</Path>
+            <Path fileType="library">/usr/lib/gapi-3.0/gapi2xml.pl</Path>
+            <Path fileType="library">/usr/lib/gapi-3.0/gapi_codegen.exe</Path>
+            <Path fileType="library">/usr/lib/gapi-3.0/gapi_pp.pl</Path>
+            <Path fileType="library">/usr/lib/mono/gac/atk-sharp/3.0.0.0__35e10195dab3c99f/atk-sharp.dll</Path>
+            <Path fileType="library">/usr/lib/mono/gac/atk-sharp/3.0.0.0__35e10195dab3c99f/atk-sharp.dll.config</Path>
+            <Path fileType="library">/usr/lib/mono/gac/cairo-sharp/1.10.0.0__0738eb9f132ed756/cairo-sharp.dll</Path>
+            <Path fileType="library">/usr/lib/mono/gac/gdk-sharp/3.0.0.0__35e10195dab3c99f/gdk-sharp.dll</Path>
+            <Path fileType="library">/usr/lib/mono/gac/gdk-sharp/3.0.0.0__35e10195dab3c99f/gdk-sharp.dll.config</Path>
+            <Path fileType="library">/usr/lib/mono/gac/gio-sharp/3.0.0.0__35e10195dab3c99f/gio-sharp.dll</Path>
+            <Path fileType="library">/usr/lib/mono/gac/gio-sharp/3.0.0.0__35e10195dab3c99f/gio-sharp.dll.config</Path>
+            <Path fileType="library">/usr/lib/mono/gac/glib-sharp/3.0.0.0__35e10195dab3c99f/glib-sharp.dll</Path>
+            <Path fileType="library">/usr/lib/mono/gac/glib-sharp/3.0.0.0__35e10195dab3c99f/glib-sharp.dll.config</Path>
+            <Path fileType="library">/usr/lib/mono/gac/gtk-dotnet/3.0.0.0__35e10195dab3c99f/gtk-dotnet.dll</Path>
+            <Path fileType="library">/usr/lib/mono/gac/gtk-dotnet/3.0.0.0__35e10195dab3c99f/gtk-dotnet.dll.config</Path>
+            <Path fileType="library">/usr/lib/mono/gac/gtk-sharp/3.0.0.0__35e10195dab3c99f/gtk-sharp.dll</Path>
+            <Path fileType="library">/usr/lib/mono/gac/gtk-sharp/3.0.0.0__35e10195dab3c99f/gtk-sharp.dll.config</Path>
+            <Path fileType="library">/usr/lib/mono/gac/pango-sharp/3.0.0.0__35e10195dab3c99f/pango-sharp.dll</Path>
+            <Path fileType="library">/usr/lib/mono/gac/pango-sharp/3.0.0.0__35e10195dab3c99f/pango-sharp.dll.config</Path>
+            <Path fileType="library">/usr/lib/mono/gtk-sharp-3.0/atk-sharp.dll</Path>
+            <Path fileType="library">/usr/lib/mono/gtk-sharp-3.0/cairo-sharp.dll</Path>
+            <Path fileType="library">/usr/lib/mono/gtk-sharp-3.0/gdk-sharp.dll</Path>
+            <Path fileType="library">/usr/lib/mono/gtk-sharp-3.0/gio-sharp.dll</Path>
+            <Path fileType="library">/usr/lib/mono/gtk-sharp-3.0/glib-sharp.dll</Path>
+            <Path fileType="library">/usr/lib/mono/gtk-sharp-3.0/gtk-dotnet.dll</Path>
+            <Path fileType="library">/usr/lib/mono/gtk-sharp-3.0/gtk-sharp.dll</Path>
+            <Path fileType="library">/usr/lib/mono/gtk-sharp-3.0/pango-sharp.dll</Path>
+            <Path fileType="library">/usr/lib/monodoc/sources/gtk-sharp-3-docs.source</Path>
+            <Path fileType="library">/usr/lib/monodoc/sources/gtk-sharp-3-docs.tree</Path>
+            <Path fileType="library">/usr/lib/monodoc/sources/gtk-sharp-3-docs.zip</Path>
+            <Path fileType="library">/usr/lib64/libatksharpglue-3.so</Path>
+            <Path fileType="library">/usr/lib64/libgiosharpglue-3.so</Path>
+            <Path fileType="library">/usr/lib64/libgtksharpglue-3.so</Path>
+            <Path fileType="library">/usr/lib64/libmono-profiler-gui-thread-check.so</Path>
+            <Path fileType="library">/usr/lib64/libmono-profiler-gui-thread-check.so.0</Path>
+            <Path fileType="library">/usr/lib64/libmono-profiler-gui-thread-check.so.0.0.0</Path>
+            <Path fileType="library">/usr/lib64/libpangosharpglue-3.so</Path>
+            <Path fileType="data">/usr/share/gapi-3.0/atk-api.xml</Path>
+            <Path fileType="data">/usr/share/gapi-3.0/gapi.xsd</Path>
+            <Path fileType="data">/usr/share/gapi-3.0/gdk-api.xml</Path>
+            <Path fileType="data">/usr/share/gapi-3.0/gio-api.xml</Path>
+            <Path fileType="data">/usr/share/gapi-3.0/glib-api.xml</Path>
+            <Path fileType="data">/usr/share/gapi-3.0/gtk-api.xml</Path>
+            <Path fileType="data">/usr/share/gapi-3.0/pango-api.xml</Path>
+        </Files>
+    </Package>
+    <Package>
+        <Name>gtk-sharp3-devel</Name>
+        <Summary xml:lang="en">Development files for gtk-sharp3</Summary>
+        <Description xml:lang="en">Gtk# is a .NET language binding for the GTK+ toolkit and assorted GNOME
+libraries. Gtk# is free software, licensed under the GNU LGPL.
+</Description>
+        <PartOf>programming.devel</PartOf>
+        <RuntimeDependencies>
+            <Dependency release="1">gtk-sharp3</Dependency>
+        </RuntimeDependencies>
+        <Files>
+            <Path fileType="data">/usr/lib64/pkgconfig/gapi-3.0.pc</Path>
+            <Path fileType="data">/usr/lib64/pkgconfig/gdk-sharp-3.0.pc</Path>
+            <Path fileType="data">/usr/lib64/pkgconfig/gio-sharp-3.0.pc</Path>
+            <Path fileType="data">/usr/lib64/pkgconfig/glib-sharp-3.0.pc</Path>
+            <Path fileType="data">/usr/lib64/pkgconfig/gtk-dotnet-3.0.pc</Path>
+            <Path fileType="data">/usr/lib64/pkgconfig/gtk-sharp-3.0.pc</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2019-08-29</Date>
+            <Version>2.99.3</Version>
+            <Comment>Packaging update</Comment>
+            <Name>Arjen Runsink</Name>
+            <Email>arjen.runsink@gmail.com</Email>
+        </Update>
+    </History>
+</PISI>

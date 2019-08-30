@@ -1,0 +1,25 @@
+name       : gtk-sharp3
+version    : 2.99.3
+release    : 1
+source     :
+    - https://download.gnome.org/sources/gtk-sharp/2.99/gtk-sharp-2.99.3.tar.xz : 6440f571416267ae0cb5698071d087b31e3084693fa2c829b1db37ca7ea2c3a2
+license    :
+    - LGPL-2.1-or-later
+summary    : Gtk# 2.99.3 is a beta release of C# bindings for GTK 3.x.
+description: |
+    Gtk# is a .NET language binding for the GTK+ toolkit and assorted GNOME
+    libraries. Gtk# is free software, licensed under the GNU LGPL.
+component  : programming.library
+libsplit   : no
+environment : 
+    export CSC=/usr/bin/mcs
+builddeps  :
+    - pkgconfig(gtk+-3.0)
+    - pkgconfig(mono)
+setup      : |
+    %patch -p1 < $pkgfiles/gtk-sharp-profiler-startup.patch
+    %configure --disable-static
+build      : |
+    %make
+install    : |
+    %make_install
